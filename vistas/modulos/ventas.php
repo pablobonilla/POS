@@ -146,14 +146,26 @@ if($xml){
                   $valorMesa = $value["id_mesa"];
 
                   $respuestaMesa = ControladorMesas::ctrMostrarMesas($itemMesa, $valorMesa);
-                  $mesa= $respuestaMesa["nombre"];
+                 
+                 var_dump($respuestaMesa["nombre"]);
 
+                  if (is_null($respuestaMesa["nombre"])){
+                    $mesa= " ";
+                  }else{
+                    $mesa= $respuestaMesa["nombre"];
+                   }
+
+                  
                   $itemDelivery = "id";
                   $valorDelivery = $value["id_delivery"];
 
                   $respuestaDelivery = ControladorDelivery::ctrMostrarDelivery($itemDelivery, $valorDelivery);
 
-                  echo '<td>'.$respuestaDelivery["nombre"].'</td>';
+                  $deli = $respuestaDelivery["nombre"];
+
+                  if(is_null($deli)){$deli="";};
+
+                  echo '<td>'.$deli.'</td>';
 
                   $itemUsuario = "id";
                   $valorUsuario = $value["id_vendedor"];
