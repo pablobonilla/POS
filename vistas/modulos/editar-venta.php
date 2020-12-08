@@ -60,8 +60,7 @@
                     $itemMesa = "id";
                     $valorMesa = $venta["id_mesa"];
 
-                    var_dump($valorMesa);
-
+                   
                     $mesa = ControladorMesas::ctrMostrarMesas($itemMesa, $valorMesa);
 
                     

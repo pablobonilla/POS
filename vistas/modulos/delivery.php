@@ -175,7 +175,7 @@ MODAL AGREGAR Delivery
               
               <div class="input-group">
               
-                <span class="input-group-addon"><i class="fa fa-user"></i></span> 
+                <span class="input-group-addon"><i class="fa fa-user"></i>&nbsp;Nombre&nbsp;&nbsp;&nbsp;&nbsp;</span> 
 
                 <input type="text" class="form-control input-lg" name="nuevoDelivery" placeholder="Ingresar Nombre" required>
 
@@ -188,8 +188,8 @@ MODAL AGREGAR Delivery
             <div class="form-group">
               
               <div class="input-group">
-              
-                <span class="input-group-addon"><i class="fa fa-key"></i></span> 
+                              
+                <span class="input-group-addon"><i class="fa fa-key"></i>&nbsp;Cédula&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 
                 <input type="text"  class="form-control input-lg" name="nuevoDocumentoId" placeholder="Ingresar Cédula"  data-inputmask="'mask':'999-9999999-9'" data-mask >
 
@@ -203,8 +203,8 @@ MODAL AGREGAR Delivery
             <div class="form-group">
               
               <div class="input-group">
-              
-                <span class="input-group-addon"><i class="fa fa-phone"></i></span> 
+                              
+                <span class="input-group-addon"><i class="fa fa-phone"></i>&nbsp;Teléfono&nbsp;&nbsp;&nbsp;&nbsp;</span> 
 
                 <input type="text" class="form-control input-lg" name="nuevoTelefono" placeholder="Ingresar teléfono" data-inputmask="'mask':'(999) 999-9999'" data-mask required>
 
@@ -218,8 +218,8 @@ MODAL AGREGAR Delivery
               
               <div class="input-group">
               
-                <span class="input-group-addon"><i class="fa fa-map-marker"></i></span> 
-
+              <span class="input-group-addon"><i class="fa fa-map-marker"></i>&nbsp;Dirección&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                
                 <input type="text" class="form-control input-lg" name="nuevaDireccion" placeholder="Ingresar dirección" >
 
               </div>
@@ -233,7 +233,8 @@ MODAL AGREGAR Delivery
               
               <div class="input-group">
               
-                <span class="input-group-addon"><i class="fa fa-users"></i></span> 
+                <span class="input-group-addon">
+                </i>Estado Civil&nbsp;&nbsp;&nbsp;</span> 
 
                 <select class="form-control input-lg" name="nuevoEstadoCivil">
                   
@@ -262,7 +263,7 @@ MODAL AGREGAR Delivery
               
               <div class="input-group">
               
-                <span class="input-group-addon"><i class="fa fa-calendar"></i></span> 
+                <span class="input-group-addon"><i class="fa fa-calendar"></i>&nbsp;Fecha Nac.</span>
 
                 <input type="text" class="form-control input-lg" name="nuevaFechaNacimiento" id="nuevaFechaNacimiento" placeholder="Ingresar fecha nacimiento" data-inputmask="'alias': 'yyyy/mm/dd'" data-mask >
 

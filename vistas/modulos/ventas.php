@@ -100,7 +100,7 @@ if($xml){
            <th>Vendedor</th>
            <th>Forma de pago</th>          
 
-           <th>Neto</th>
+           <th>Mesa</th>
            <th>Total</th> 
            <th>Fecha</th>
            <th>Acciones</th>
@@ -142,6 +142,12 @@ if($xml){
 
                   echo '<td>'.$respuestaCliente["nombre"].'</td>';
 
+                  $itemMesa = "id";
+                  $valorMesa = $value["id_mesa"];
+
+                  $respuestaMesa = ControladorMesas::ctrMostrarMesas($itemMesa, $valorMesa);
+                  $mesa= $respuestaMesa["nombre"];
+
                   $itemDelivery = "id";
                   $valorDelivery = $value["id_delivery"];
 
@@ -157,7 +163,7 @@ if($xml){
 
                   <td>'.$value["metodo_pago"].'</td>
 
-                  <td>$ '.number_format($value["neto"],2).'</td>
+                  <td> '.$mesa.'</td>
 
                   <td>$ '.number_format($value["total"],2).'</td>
 

@@ -154,7 +154,7 @@ MODAL AGREGAR CATEGORÍA
               
                 <span class="input-group-addon"><i class="fa fa-th"></i></span> 
 
-                <input type="text" class="form-control input-lg" name="nuevaCategoria" placeholder="Ingresar categoría" required>
+                <input type="text" class="form-control input-lg" name="nuevaCategoria" placeholder="Nombre de la categoría" required>
 
               </div>
 
