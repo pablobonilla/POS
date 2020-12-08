@@ -1,0 +1,18 @@
+.textoFactura{
+
+    margin-left: 1em;
+    color: seagreen ;
+    font-weight: bolder;
+}
+
+.textoProductos{
+    color: sandybrown ;
+    font-weight: bolder;
+    padding-left: 2rem;
+
+}
+.btn-default {
+    background-color: green;
+    color: white;
+    border-color: #ddd;
+}
